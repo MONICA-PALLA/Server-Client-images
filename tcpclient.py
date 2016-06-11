@@ -26,6 +26,6 @@ for i in range(5):
             sock.send(l)
             break
     print "Done Sending"
-    PORT = PORT + 1
+    
 
 sock.close()
